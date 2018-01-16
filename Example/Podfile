@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XTPodTest_Tests' do
+  pod 'XTPodTest', :path => '../'
+  
+  
+end
