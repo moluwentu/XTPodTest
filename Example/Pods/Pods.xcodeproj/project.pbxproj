@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A1C7B5A57BFEE3354F8CFCD41B5AD15 /* Pods-XTPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B109723B507DEAC4B7836503E909FC5 /* Pods-XTPodTest_Tests-dummy.m */; };
 		1B6E16DA67675321A589FEC2E90C018F /* Pods-XTPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8D00052B3F9A37821F01824A7985BC /* Pods-XTPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		531CEDBEAEFE717D104DD8AF663F0A91 /* XTPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E961A575A14A4D846543B9A238BF23 /* XTPodTest-dummy.m */; };
 		8676741432A983B68243CC3E2C9BFAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A41CC3EC1FB159C67E58F9BC1DD5490E /* XTPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70867169D380FA9CB41E3AC2CA25F589 /* XTPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3FCA440970705559E0B8996261773EA /* HMTAgentSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 064EC3081E7EEEE63993770A5D790B5E /* HMTAgentSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B896534E6A6A1F1C1437FE35790B403D /* libHMVTAgentLib.a in Sources */ = {isa = PBXBuildFile; fileRef = E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */; };
 		D2B81265F2F112B788E655B8ADED2DE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,28 +28,22 @@
 
 /* Begin PBXFileReference section */
 		064EC3081E7EEEE63993770A5D790B5E /* HMTAgentSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMTAgentSDK.h; sourceTree = "<group>"; };
-		0CC2B5412D797537D34598A7052A2669 /* XTPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTPodTest.xcconfig; sourceTree = "<group>"; };
-		1ABC4C4D8FEB4F86C37705BB3E0647DB /* Pods-XTPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XTPodTest_Tests.modulemap"; sourceTree = "<group>"; };
+		1ABC4C4D8FEB4F86C37705BB3E0647DB /* Pods-XTPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XTPodTest_Tests.modulemap"; sourceTree = "<group>"; };
 		1B4E05C3A9A08966D5D655BFBE40314C /* Pods-XTPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		32655CB06CA50D24C0271A6493044960 /* Pods-XTPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		35531133219DBB66D453451D9715A64A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3F0653718CF287B7A623464A5E18E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A8D00052B3F9A37821F01824A7985BC /* Pods-XTPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70867169D380FA9CB41E3AC2CA25F589 /* XTPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTPodTest-umbrella.h"; sourceTree = "<group>"; };
 		75CBF5DF59C19D48227E6984195CEA04 /* Pods-XTPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BFF82486A8739E51C1ABDC7854F78B3 /* Pods-XTPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B109723B507DEAC4B7836503E909FC5 /* Pods-XTPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		A173D1621FF6E5B2794BC4DC1C552C34 /* XTPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTPodTest.framework; path = XTPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9E961A575A14A4D846543B9A238BF23 /* XTPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTPodTest-dummy.m"; sourceTree = "<group>"; };
+		A173D1621FF6E5B2794BC4DC1C552C34 /* XTPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D03E5B4250305EAC44B9D167DFC820 /* HVTAgentSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HVTAgentSDK.h; sourceTree = "<group>"; };
 		D1621D58A908C60D1DA08C3404C72482 /* Pods-XTPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		D57C6AA2204696363E1B6EBAB7E936B9 /* Pods-XTPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libHMVTAgentLib.a; sourceTree = "<group>"; };
-		EA53D5C842CC952131531D6297482CB9 /* Pods_XTPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XTPodTest_Tests.framework; path = "Pods-XTPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDA899D587AD22275473E54590351E60 /* XTPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XTPodTest.modulemap; sourceTree = "<group>"; };
-		F31E0A8C887B9FD37045B5633D579F46 /* XTPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTPodTest-prefix.pch"; sourceTree = "<group>"; };
+		EA53D5C842CC952131531D6297482CB9 /* Pods_XTPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +73,6 @@
 				B3D03E5B4250305EAC44B9D167DFC820 /* HVTAgentSDK.h */,
 				E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -93,26 +84,11 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4E1E801A2FB5121B2A2D98A80B63E107 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				35531133219DBB66D453451D9715A64A /* Info.plist */,
-				EDA899D587AD22275473E54590351E60 /* XTPodTest.modulemap */,
-				0CC2B5412D797537D34598A7052A2669 /* XTPodTest.xcconfig */,
-				A9E961A575A14A4D846543B9A238BF23 /* XTPodTest-dummy.m */,
-				F31E0A8C887B9FD37045B5633D579F46 /* XTPodTest-prefix.pch */,
-				70867169D380FA9CB41E3AC2CA25F589 /* XTPodTest-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XTPodTest";
-			sourceTree = "<group>";
-		};
 		5038294C83396F79F638E8C3B9BF53F0 /* XTPodTest */ = {
 			isa = PBXGroup;
 			children = (
 				0FD98E9A200A101FABCF6E90396303CA /* Classes */,
 			);
-			name = XTPodTest;
 			path = XTPodTest;
 			sourceTree = "<group>";
 		};
@@ -138,7 +114,6 @@
 		A332F3C1CF3714AA1BEBD810B38CFF08 /* XTPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				4E1E801A2FB5121B2A2D98A80B63E107 /* Support Files */,
 				5038294C83396F79F638E8C3B9BF53F0 /* XTPodTest */,
 			);
 			name = XTPodTest;
@@ -197,7 +172,6 @@
 			files = (
 				B3FCA440970705559E0B8996261773EA /* HMTAgentSDK.h in Headers */,
 				FD98EB9645D4593C4626DA0FCA0FAA5E /* HVTAgentSDK.h in Headers */,
-				A41CC3EC1FB159C67E58F9BC1DD5490E /* XTPodTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B896534E6A6A1F1C1437FE35790B403D /* libHMVTAgentLib.a in Sources */,
-				531CEDBEAEFE717D104DD8AF663F0A91 /* XTPodTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +323,6 @@
 		};
 		6A5D20FE53D529F669B948B19B65DD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CC2B5412D797537D34598A7052A2669 /* XTPodTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -454,7 +426,6 @@
 		};
 		9658B12CD628B1BD0D5BCFF22EB21CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CC2B5412D797537D34598A7052A2669 /* XTPodTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

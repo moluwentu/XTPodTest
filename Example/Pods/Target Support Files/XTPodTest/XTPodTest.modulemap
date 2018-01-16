@@ -1,6 +1,0 @@
-framework module XTPodTest {
-  umbrella header "XTPodTest-umbrella.h"
-
-  export *
-  module * { export * }
-}
