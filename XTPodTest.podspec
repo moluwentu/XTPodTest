@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/soul_chaoyue@163.com/XTPodTest'
+  s.homepage         = 'https://github.com/moluwentu/XTPodTestt'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'soul_chaoyue@163.com' => 'soul_chaoyue@163.com' }
   s.source           = { :git => 'https://github.com/soul_chaoyue@163.com/XTPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'XTPodTest/Classes/**/*'
   

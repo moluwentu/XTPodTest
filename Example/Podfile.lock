@@ -1,0 +1,16 @@
+PODS:
+  - XTPodTest (0.1.0)
+
+DEPENDENCIES:
+  - XTPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  XTPodTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XTPodTest: e50632491cf001e963df77105ec10d89ccf4b02c
+
+PODFILE CHECKSUM: e368edab0fcef21b88aba1dfda22d58875981c31
+
+COCOAPODS: 1.1.1
