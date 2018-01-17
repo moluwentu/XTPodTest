@@ -22,8 +22,6 @@ pod 'XTPodTest'
 
 ## Author
 
-soul_chaoyue@163.com, soul_chaoyue@163.com
-
 ## License
 
 XTPodTest is available under the MIT license. See the LICENSE file for more info.
