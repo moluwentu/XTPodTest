@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTPodTest'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of XTPodTest.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
 
 
   s.ios.deployment_target = '7.0'
-
+  s.frameworks = 'CoreFoundation','CoreLocation','CoreMotion','CoreTelephony','Security','SystemConfiguration','AdSupport'
+  s.libraries = 'libsqlite3','libz.1.1.3'
   s.source_files = 'XTPodTest/Classes/**/*'
   s.vendored_libraries = "XTPodTest/Libs/*.a"
 end
