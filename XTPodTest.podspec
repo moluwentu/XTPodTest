@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTPodTest'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of XTPodTest.'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/moluwentu/XTPodTest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'soul_chaoyue@163.com' => 'soul_chaoyue@163.com' }
   s.source           = { :git => 'https://github.com/moluwentu/XTPodTest.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
 
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'XTPodTest/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'XTPodTest' => ['XTPodTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_libraries = "XTPodTest/Libs/*.a"
 end

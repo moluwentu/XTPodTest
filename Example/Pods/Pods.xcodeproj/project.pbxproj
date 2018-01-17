@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		1A1C7B5A57BFEE3354F8CFCD41B5AD15 /* Pods-XTPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B109723B507DEAC4B7836503E909FC5 /* Pods-XTPodTest_Tests-dummy.m */; };
 		1B6E16DA67675321A589FEC2E90C018F /* Pods-XTPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8D00052B3F9A37821F01824A7985BC /* Pods-XTPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DDB717E200EE590003AB9EC /* libHMVTAgentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB717C200EE588003AB9EC /* libHMVTAgentLib.a */; };
 		8676741432A983B68243CC3E2C9BFAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B3FCA440970705559E0B8996261773EA /* HMTAgentSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 064EC3081E7EEEE63993770A5D790B5E /* HMTAgentSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B896534E6A6A1F1C1437FE35790B403D /* libHMVTAgentLib.a in Sources */ = {isa = PBXBuildFile; fileRef = E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */; };
 		D2B81265F2F112B788E655B8ADED2DE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FD98EB9645D4593C4626DA0FCA0FAA5E /* HVTAgentSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D03E5B4250305EAC44B9D167DFC820 /* HVTAgentSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -34,6 +34,7 @@
 		3D3F0653718CF287B7A623464A5E18E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A8D00052B3F9A37821F01824A7985BC /* Pods-XTPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6DDB717C200EE588003AB9EC /* libHMVTAgentLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHMVTAgentLib.a; sourceTree = "<group>"; };
 		75CBF5DF59C19D48227E6984195CEA04 /* Pods-XTPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BFF82486A8739E51C1ABDC7854F78B3 /* Pods-XTPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -42,7 +43,6 @@
 		B3D03E5B4250305EAC44B9D167DFC820 /* HVTAgentSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HVTAgentSDK.h; sourceTree = "<group>"; };
 		D1621D58A908C60D1DA08C3404C72482 /* Pods-XTPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		D57C6AA2204696363E1B6EBAB7E936B9 /* Pods-XTPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libHMVTAgentLib.a; sourceTree = "<group>"; };
 		EA53D5C842CC952131531D6297482CB9 /* Pods_XTPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDB717E200EE590003AB9EC /* libHMVTAgentLib.a in Frameworks */,
 				8676741432A983B68243CC3E2C9BFAD3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +72,6 @@
 			children = (
 				064EC3081E7EEEE63993770A5D790B5E /* HMTAgentSDK.h */,
 				B3D03E5B4250305EAC44B9D167DFC820 /* HVTAgentSDK.h */,
-				E76D536723F9C6A8E1AC9096766D33C7 /* libHMVTAgentLib.a */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -87,9 +87,18 @@
 		5038294C83396F79F638E8C3B9BF53F0 /* XTPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				6DDB717B200EE588003AB9EC /* Libs */,
 				0FD98E9A200A101FABCF6E90396303CA /* Classes */,
 			);
 			path = XTPodTest;
+			sourceTree = "<group>";
+		};
+		6DDB717B200EE588003AB9EC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB717C200EE588003AB9EC /* libHMVTAgentLib.a */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -261,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B896534E6A6A1F1C1437FE35790B403D /* libHMVTAgentLib.a in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
